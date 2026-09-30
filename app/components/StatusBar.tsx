@@ -47,7 +47,7 @@ export default function StatusBar() {
       <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }} className="flex items-center gap-3 rounded-full border border-line bg-panel px-5 py-2.5">
         <CloudSun size={18} className="text-brass" strokeWidth={1.5} />
         <span className="font-mono text-sm text-ivory">24°</span>
-        <span className="text-sm text-muted">Baku</span>
+        <span className="text-sm text-muted">Rasht, Guilan</span>
       </motion.div>
     </div>
   );
